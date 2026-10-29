@@ -779,8 +779,8 @@
               <span>Project Links & Delivery Assets</span>
             </div>
             <div class="repo-links-box">
-              <a href="#" class="btn-repo-link" onclick="alert('GitHub Repository: ' + '${meta.githubRepo}'); return false;">
-                <span>📦 GitHub Source Code Repository</span>
+              <a href="${meta.githubRepo || 'https://github.com/Tejas-Singh106/Ai_story_illustator'}" target="_blank" rel="noopener noreferrer" class="btn-repo-link" style="text-decoration:none">
+                <span>📦 GitHub: Tejas-Singh106/Ai_story_illustator</span>
                 <span>➔</span>
               </a>
               <a href="#" class="btn-repo-link" onclick="alert('Google Drive Deliverables: ' + '${meta.driveLink}'); return false;">
@@ -820,6 +820,9 @@
     if (saved) {
       try {
         STATE.teamMetadata = JSON.parse(saved);
+        if (!STATE.teamMetadata.githubRepo || STATE.teamMetadata.githubRepo.includes('your-username')) {
+          STATE.teamMetadata.githubRepo = PROJECT_PRESENTATION.defaultMetadata.githubRepo;
+        }
         return;
       } catch (e) { }
     }
