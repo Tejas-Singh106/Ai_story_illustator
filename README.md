@@ -1,7 +1,7 @@
-# 🌟 LuminaStory AI: Multimodal Story & Illustration Generator
+# 🌟 AI Story & Illustration Generator
 
-> **Automated Sequential Narrative Generation & Character-Consistent Visual Storyboarding**  
-> Capstone Project • Department of Computer Science & Engineering • Academic Year 2024–2025
+> **Automated Multimodal Narrative Synthesis & Character-Consistent Visual Storyboarding**  
+> Deep Learning and Generative AI • Department of Computer Science • KIET Group of Institutions • Academic Year 2026
 
 [![Node.js Version](https://img.shields.io/badge/Node.js-v18%2B-brightgreen.svg)](https://nodejs.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -166,14 +166,18 @@ AI story/
 
 ## 👥 Project Team & Submission Details
 
-- **Project Title:** AI Story and Illustration Generator
-- **Course / Stream:** Capstone Major Project • B.Tech Computer Science & Engineering
+- **Project Title:** AI Story & Illustration Generator
+- **Subtitle:** Automated Multimodal Narrative Synthesis & Character-Consistent Visual Storyboarding
+- **Institution:** KIET Group of Institutions
+- **Department:** Department of Computer Science
+- **Course / Subject:** Deep Learning and Generative AI
+- **Academic Year:** 2026
+- **Section / Class:** CS-5D
+- **Faculty Guide:** Tarul Mam
 - **Team Members:**
-  - **Tejas S** (Roll No: 21CS001) — Model Architecture & Multimodal Pipeline Integration
-  - **Team Member 2** (Roll No: 21CS042) — Diffusion Conditioning & Prompt Engineering
-  - **Team Member 3** (Roll No: 21CS078) — Speech Synthesis & Frontend Studio Experience
-- **Section / Class:** CSE - Section A
-- **Faculty Guide:** Dr. A. Sharma, Ph.D., Department of Computer Science & Engineering
+  - **Tejas Singh** (Roll No: 2400290120265) — Model Architecture & Pipeline Integration
+  - **Sarvesh Ranjan** (Roll No: 2400290120226) — Diffusion Prompt Engineering & Visual Consistency
+  - **Vivek** (Roll No: 2400290120281) — Multimodal Frontend & Web Speech Integration
 
 ---
 

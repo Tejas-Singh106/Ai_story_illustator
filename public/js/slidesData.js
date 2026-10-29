@@ -4,19 +4,19 @@ const PROJECT_PRESENTATION = {
   defaultMetadata: {
     projectTitle: "AI Story & Illustration Generator",
     subtitle: "Automated Multimodal Narrative Synthesis & Character-Consistent Visual Storyboarding",
-    academicYear: "2024 - 2025",
-    course: "Major Capstone Project / Artificial Intelligence & Deep Learning",
-    department: "Department of Computer Science & Engineering",
-    institution: "Institute of Technology & Advanced Engineering",
-    guide: "Dr. A. Sharma, Ph.D. (Associate Professor, AI Lab)",
-    section: "CSE - Section A",
+    academicYear: "2026",
+    course: "Deep Learning and Generative AI ",
+    department: "Department of Computer Science ",
+    institution: "KIET Group of Institutions",
+    guide: "Tarul Mam",
+    section: "CS-5D",
     teamMembers: [
-      { name: "Tejas S", rollNo: "21CS001", role: "Model Architecture & Pipeline Integration" },
-      { name: "Team Member 2", rollNo: "21CS042", role: "Diffusion Prompt Engineering & Visual Consistency" },
-      { name: "Team Member 3", rollNo: "21CS078", role: "Multimodal Frontend & Web Speech Integration" }
+      { name: "Tejas Singh", rollNo: "2400290120265", role: "Model Architecture & Pipeline Integration" },
+      { name: "Sarvesh Ranjan", rollNo: "2400290120226", role: "Diffusion Prompt Engineering & Visual Consistency" },
+      { name: "Vivek", rollNo: "2400290120281", role: "Multimodal Frontend & Web Speech Integration" }
     ],
     githubRepo: "https://github.com/Tejas-Singh106/Ai_story_illustator",
-    driveLink: "https://drive.google.com/drive/folders/ai-story-generator-deliverables"
+    driveLink: ""
   },
 
   slides: [
