@@ -1,7 +1,10 @@
+
+
+
 // Main Application Controller: LuminaStory AI
 // Coordinates Studio, Storybook Reader, Presentation Deck, and Library
 
-(function() {
+(function () {
   'use strict';
 
   // --- State Management ---
@@ -141,7 +144,7 @@
 
     // Studio Interactions
     DOM.btnRandomPrompt.addEventListener('click', fillRandomPrompt);
-    
+
     DOM.genrePills.forEach(pill => {
       pill.addEventListener('click', () => {
         DOM.genrePills.forEach(p => p.classList.remove('selected'));
@@ -818,7 +821,7 @@
       try {
         STATE.teamMetadata = JSON.parse(saved);
         return;
-      } catch (e) {}
+      } catch (e) { }
     }
     STATE.teamMetadata = JSON.parse(JSON.stringify(PROJECT_PRESENTATION.defaultMetadata));
   }
@@ -897,7 +900,7 @@
       const card = document.createElement('div');
       card.className = 'story-card-item';
       const coverUrl = st.coverImage || (st.scenes && st.scenes[0] && st.scenes[0].imageUrl) || 'assets/samples/dragon_story.jpg';
-      
+
       card.innerHTML = `
         <img class="story-card-cover" src="${coverUrl}" alt="${st.title}" onerror="this.src='assets/samples/dragon_story.jpg'" />
         <div class="story-card-body">

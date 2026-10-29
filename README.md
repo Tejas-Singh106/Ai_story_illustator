@@ -108,8 +108,8 @@ flowchart TD
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/ai-story-illustration-generator.git
-cd ai-story-illustration-generator
+git clone https://github.com/Tejas-Singh106/Ai_story_illustator.git
+cd Ai_story_illustator
 ```
 
 ### 2. Install Dependencies

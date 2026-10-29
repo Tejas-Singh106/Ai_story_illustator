@@ -15,7 +15,7 @@ const PROJECT_PRESENTATION = {
       { name: "Team Member 2", rollNo: "21CS042", role: "Diffusion Prompt Engineering & Visual Consistency" },
       { name: "Team Member 3", rollNo: "21CS078", role: "Multimodal Frontend & Web Speech Integration" }
     ],
-    githubRepo: "https://github.com/your-username/ai-story-illustration-generator",
+    githubRepo: "https://github.com/Tejas-Singh106/Ai_story_illustator",
     driveLink: "https://drive.google.com/drive/folders/ai-story-generator-deliverables"
   },
 
